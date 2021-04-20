@@ -16,8 +16,8 @@ public class WelcomeRestController {
 // 	public String welcome(@PathVariable("name") String name) {
 // 		return name+", Welcome to Ashok IT Family..!!";
 // 	}
-	public String welcome(@PathVariable("name")) {
-		return ", Welcome to Ashok IT Family..!!";
+	
+	public String welcome(@PathVariable("name") String name) {
+		return name+", Welcome to the IT family..!!";
 	}
-
 }
